@@ -12,9 +12,9 @@ pipelineJob('clientServiceJob'){
             scm{
                 git{
                     remote{
-                        url 'https://github.com/darothub/microservice-springboot.git'
+                        url 'https://github.com/darothub/client-micro-service.git'
                     }
-                    branch 'develop'
+                    branch 'master'
                 }
             }
         }
